@@ -7,10 +7,10 @@ export const COMPANY = {
   city: "Hyderabad",
   state: "Telangana",
   country: "India",
-  phone: "+91 90000 00000",
+  phone: "+91 78140 78598",
   email: "info@krishbuilders.com",
   address: "Plot No. 42, Jubilee Hills, Road No. 36, Hyderabad, Telangana 500033",
-  whatsapp: "919000000000",
+  whatsapp: "919739088321",
   social: {
     instagram: "https://instagram.com/krishbuilders",
     facebook: "https://facebook.com/krishbuilders",
