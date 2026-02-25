@@ -57,7 +57,7 @@ export default function Header() {
               <div className="w-12 h-12 bg-navy rounded-lg flex items-center justify-center group-hover:bg-navy-light transition-colors">
                 <span className="text-gold font-bold text-xl">KB</span>
               </div>
-              <div className="hidden sm:block">
+              <div>
                 <span className="block text-navy font-bold text-xl leading-tight tracking-tight">
                   KRISH
                 </span>
