@@ -146,31 +146,6 @@ export default function Hero() {
         </button>
       </div>
 
-      {/* Stats Bar */}
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-0 left-0 right-0 z-20 hidden lg:block"
-      >
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="bg-white/10 backdrop-blur-md border border-white/10 rounded-t-2xl px-8 py-6 grid grid-cols-4 gap-8">
-            {[
-              { value: "15+", label: "Years Experience" },
-              { value: "6", label: "Projects Delivered" },
-              { value: "10K+", label: "Happy Families" },
-              { value: "4.5M+", label: "Sq.Ft Delivered" },
-            ].map((stat, i) => (
-              <div key={i} className="text-center">
-                <div className="text-gold text-3xl font-bold counter-number">
-                  {stat.value}
-                </div>
-                <div className="text-white/70 text-sm mt-1">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </motion.div>
     </section>
   );
 }
