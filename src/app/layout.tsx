@@ -18,6 +18,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://krishbuilders.com"
+  ),
   title: {
     default: "Krish Builders | Premium High-Rise Apartments in Hyderabad",
     template: "%s | Krish Builders",
